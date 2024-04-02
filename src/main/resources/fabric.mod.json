@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "dnicraft",
+	"version": "${version}",
+	"name": "D'niCraft",
+	"description": "This mod adds the D'ni Art. Create worlds and travel to them by crafting and writing linking books.",
+	"authors": [
+		"TeeFoss"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/dnicraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.teefoss.dni.DniCraft"
+		],
+		"client": [
+			"net.teefoss.dni.DniCraftClient"
+		],
+		"fabric-datagen": [
+			"net.teefoss.dni.DniCraftDataGenerator"
+		]
+	},
+	"mixins": [
+		"dnicraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.9",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
