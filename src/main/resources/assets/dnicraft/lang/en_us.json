@@ -1,0 +1,10 @@
+{
+    "item.dnicraft.linking_book": "Linking Book",
+    "item.dnicraft.test_stick": "Dimensional Disbobulator",
+    "itemgroup.dnicraft": "D'niCraft",
+
+    "sounds.dnicraft.link_sound": "Woosh",
+
+    "tooltip.dnicraft.linked": "Linked",
+    "tooltip.dnicraft.unlinked": "Unlinked"
+}

@@ -1,4 +1,4 @@
-package net.teefoss.dni.mixin;
+package net.teefoss.dnicraft.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

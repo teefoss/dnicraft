@@ -3,7 +3,7 @@
 	"id": "dnicraft",
 	"version": "${version}",
 	"name": "D'niCraft",
-	"description": "This mod adds the D'ni Art. Create worlds and travel to them by crafting and writing linking books.",
+	"description": "A Myst mod that adds the D'ni Art of writing linking books.",
 	"authors": [
 		"TeeFoss"
 	],
@@ -16,13 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.teefoss.dni.DniCraft"
+			"net.teefoss.dnicraft.DniCraft"
 		],
 		"client": [
-			"net.teefoss.dni.DniCraftClient"
-		],
-		"fabric-datagen": [
-			"net.teefoss.dni.DniCraftDataGenerator"
+			"net.teefoss.dnicraft.DniCraftClient"
 		]
 	},
 	"mixins": [

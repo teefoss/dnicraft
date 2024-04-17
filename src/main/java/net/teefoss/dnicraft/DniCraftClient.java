@@ -1,4 +1,4 @@
-package net.teefoss.dni;
+package net.teefoss.dnicraft;
 
 import net.fabricmc.api.ClientModInitializer;
 

@@ -1,0 +1,8 @@
+{
+    "link_sound": {
+        "subtitles": "sounds.dnicraft.link_sound",
+        "sounds": [
+            "dnicraft:link_sound"
+        ]
+    }
+}
